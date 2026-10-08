@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cosmetics</title>
+  <link rel="stylesheet" href="Estilos.css">
+</head>
+<body>
+
+  <!--Encabezado de la pagina-->
+<header>
+  <h1>Freshly Cosmetics<h1>
+  <p><i>ORIGEN FAMILIAR Y CIENTIFICO</i></p>
+</header>
+
+<!--Menu de navegacion-->
+<nav>
+  <ul>
+    <li><a href="Freshly Cosmetics">Origen Familiar y Científico</a></li> 
+    <li><a href="2.html">Vision holística</a></li> 
+    <li><a href="3.html">Dermocosmética natural con laboratorio propio</a></li>
+  </ul>
+</nav>
+
+<!--Contenedor principal:Seccion de contenido aside-->
+<div class="contenedor">
+    
+   <!--Seccion principal (Lado izquierdo)-->
+
+   <section>
+     <h2>Qué es y cuál es su historia?</h2>
+
+     <article>
+       <h3>Es una marca española de dermocosmética natrural, nacida en el 2016, que crea productos con ingredientes naturales en su propio laboratorio, tratando la piel como un organo vivo conectado con la salud general.</h3>
+       <p><b>Esta marca nació en 2016 </b>inspirada en Merce , una madre que hacia cosmetica natural en <i>casa</i> y fundada por tres ingenieros quimicos que querian una alternativa mas sana y honesta</p>
+       <blockquote>"Cuidar la piel, <strong>bien entendido,</strong> es una forma de <em>cuidar</em> la vida." -Miquel Antolin, confudador y CEO de Freshly Cosmetics.</blockquote>
+       <p><mark>Fecha: 2 de octubre del 2026</mark> | <small>Publicado por: Empresa Freshly Cosmetics</samp></p>
+     </article>
+
+     <h2>La Fundación de tres Ingenieros Químicos</h2>
+
+     <article>
+         <h3>Esta Visión Inspiró a 3 Ingenieros químicos recién licenciados</h3>
+         <p>Freshly <b>Cosmetics </b>con la mente de Miquel Antolín, Mireia Trepat y Joan Miralles , vieron que la industria cosmetica priorizaba resultados rapidos usando ingredientes perjudiciales para la <i>salud</i> </p>
+         <p>Su decisión fue crear una alternativa más <i>honesta</i> y <i>natural</i> con rigor científico.</p>
+     </article>
+
+     <h2>La Filosofía</h2>
+
+     <article>
+         <h3>La piel como órgano vivo</h3>
+         <p>Freshly entiende la piel no como un órgano aislado, sino conectado con el resto del cuerpo.</p>
+         <p>El estrés, el descanso y la alimentación influyen directamente en ella.</p>
+         <p>Por eso no buscan resultados instantaneos ni "forzar" la <i>piel</i> sino potenciarr sus funciones <i>naturales</i> para lograr cambios profundos y duraderos</p>
+     </article>
+
+     <h2>Datos Relevantes</h2>
+     <table>
+       <tr>
+          <th>Fecha</th>
+          <th>Evento </th>
+          <th>Ubicacion</th>
+       </tr>
+       <tr>
+          <td>2019</td>
+          <td>Inauguracion de la primera Freshly Store (tienda de la marca)</td>
+          <td>Barcelona, España</td>
+       </tr> 
+       <tr>     
+          <td>2021</td>
+          <td>Inauguracion del Freshly Lab (laboratorio de la marca)</td>
+          <td>Reus, Tarragona, España</td>
+       </tr>
+     </table>  
+
+     <h2>Imagen destacada</h2>
+     <img src="shly.jpg" width="600" height="400">
+
+     <h2>Contactenos</h2>
+     <form action="#" method="post">
+       <label for="nombre">Nombre:</label><br>
+       <input type="text" id="nombre"name="nombre"><br><br>
+       <label for="email">Correo electronico:</label><br>
+       <input type="email" id="email" name="email"><br><br>
+       <input type="submit" value="enviar">
+     </form>
+   <section>
+
+   <!--Aside (Columna lateral)-->
+   <aside>
+     <h2>Imagen del Dia</h2>
+     <figure>
+        <img src="cosmetics.jpg" width="500" height="400"
+        <figcaption>Productos de Freshly Cosmetics</figcaption>
+     </figure>
+
+     <h2>Glosario Freshly Cosmetics</h2>
+     <dl>
+       <dt>Dermocosmética:</dt>
+       <dd>Cosmética que combina el cuidado de la piel con principios científicos, formulada para respetar y potenciar la funciones naturales de la piel.</dd>
+
+       <dt>Disruptores endocrinos:</dt>
+       <dd>Sustancias que interfieren con el sistema hormonal del cuerpo. Freshlylos evita en todas sus formulas.</dd>
+
+       <dt>Cuelty-Free:</dt> 
+       <dd>Productos que no han sido testados en animales en ninguna etapa de su desarrollo</dd>                                                                                                                                       
+     </dl>
+   </aside>
+</div>
+
+
+
+
+
+
+
+
+
+
